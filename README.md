@@ -14,6 +14,11 @@ The aforementioned functionality is suitable for modeling generic count data, an
   * To compute significance (i.e., LNP posterior predictive _p_-values), use `src/regr/regr_post_pred.m`
 * To run the model on the somatic mutation calls analyzed in the manuscript, use the wrapper script `src/pois_LN_reg_wrapper.m`. Currently, it is only intended for processing calls in a format specific to this manuscript, output by the [analysis notebooks](https://github.com/broadinstitute/getzlab-PHS) used to generate the publication. We are planning to release a user-friendly wrapper for running on generic `.maf` files soon.
 
+To run any code, start MATLAB (any version R2014b or newer should work) in the root
+directory of this repo --- this is necessary for `startup.m` to properly add
+dependencies to the MATLAB path. Tested to work only under 64 bit Linux; other
+architectures may work after recompiling C/C++ `.mex` files.
+
 ### Regression demo
 
 Here is a simple demo of running the regression model on simulated counts, sans covariates.
