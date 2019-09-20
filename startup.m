@@ -1,4 +1,4 @@
-addpath('funcs')
+addpath('./funcs')
 
 [~, p] = unix('find src ref -type d');
 p = strsplit(p, '\n');
