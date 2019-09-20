@@ -1,0 +1,3 @@
+[submodule "funcs"]
+	path = funcs
+	url = git@github.com:broadinstitute/getzlab-LNPHS_utils.git
