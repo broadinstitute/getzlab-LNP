@@ -73,6 +73,6 @@ ax.YTick = 0.75:0.05:1.05;
 grid on
 ```
 
-![MCMC samples from posterior](xxx)
+<img src="https://github.com/broadinstitute/getzlab-LNP/blob/master/demo.png" alt="MCMC samples from posterior" width="600">
 
 confirming that samples from the posterior distribution look as we would expect.
